@@ -13,6 +13,6 @@ public class 斐波那契数列 {
         if (cache[n] != 0) return cache[n];
         cache[n] = fib(n - 1) + fib(n - 2);
         cache[n] %= mod;
-        return cache[n]
+        return cache[n];
     }
 }
